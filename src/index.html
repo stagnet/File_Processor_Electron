@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <title>Electron File Processor</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>File Processing</h1>
+
+    <div class="button-row">
+      <!-- "Choose File" button triggers open-file-dialog in the main process -->
+      <button id="choose-file-btn">Choose File</button>
+      <button id="start-button">Start Processing</button>
+      <button id="stop-button">Stop Processing</button>
+    </div>
+
+    <div id="log-window"></div>
+
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
