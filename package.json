@@ -1,6 +1,6 @@
 {
-  "name": "file-processer",
-  "productName": "file-processer",
+  "name": "file-processor",
+  "productName": "File Processor",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/main.js",
